@@ -1,0 +1,48 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<30>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Brute-force Implementation): This problem was fairly simple but
+   the method that gave me the most issues would be finding the k nearest 
+   neighbors. The easiest way I figured how to do it was by calculaing all the 
+   distances in and storing them in an array and then sorting them afterwards.
+   However, deep down I still think that there could have been a more efficient
+    way to solve this method.
+
+   Problem 2 (2d-tree Implementation): This problem gave me the most issues and 
+   I realized that I wasn't putting the points in the right places and utilizing 
+   lr to determine how to determine how to search. The k nearest neighbor 
+   method in this problem probably took me like 10 hours to solve because I was 
+   getting incorrect points and I figured it out by tracing the code. That's
+   where I found out that I wasn't puttting things in the right places. 
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   I didn't receive any help for this project otherwise from doing online 
+   researches to find out what a K-D Tree is and asking questions on piazza. 
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project was extremely difficult but I did learn alot about recursion 
+   and stack overflow when I had recursive methods that will not end. I feel 
+   that this project has made me a master of doing recursion. The only part 
+   that I'm still confused about is when would it be more efficient to use 
+   recursion over iteration. Recursion will only process data the amount of 
+   time that it needs to but the stack of process that needs to take places I 
+   believe will take more memory as well. I guess it's situation where it's the
+   space complexity vs the time complexity.
